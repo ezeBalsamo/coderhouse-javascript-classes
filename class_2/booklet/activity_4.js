@@ -17,4 +17,6 @@ if (0 <= budget <= 1000) {
   alert("Medium budget");
 } else if (budget > 3000) {
   alert("High budget");
+} else {
+  alert("Budget must be strictly positive.");
 }
