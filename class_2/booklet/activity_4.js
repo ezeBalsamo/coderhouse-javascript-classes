@@ -11,9 +11,9 @@ Si el valor está entre dos números, efectuar una de las siguientes salidas, se
 */
 
 let budget = parseFloat(prompt("Enter your budget"));
-if (0 <= budget <= 1000) {
+if (0 <= budget && budget <= 1000) {
   alert("Low budget");
-} else if (1001 <= budget <= 3000) {
+} else if (1001 <= budget && budget <= 3000) {
   alert("Medium budget");
 } else if (budget > 3000) {
   alert("High budget");
