@@ -26,3 +26,15 @@ while (textToConcat !== "ESC") {
     console.log(finalText);
     textToConcat = prompt("Enter a text to concatenate at the end");
 }
+
+/*
+Pedir un número por prompt, repetir la salida del mensaje “Hola” la cantidad de veces ingresada.
+*/
+
+let numberOfTimes = parseInt(
+    prompt("Enter the number of times you want me to say 'Hola'")
+);
+
+for (let i = 0; i < numberOfTimes; i++) {
+    alert("Hola");
+}
