@@ -9,5 +9,5 @@ let textToRepeat = prompt("Enter the text to repeat");
 let numberOfRepetitions = parseInt(prompt("Enter the number of repetitions"));
 
 for (let i = 0; i < numberOfRepetitions; i++) {
-  alert(textToRepeat);
+    alert(textToRepeat);
 }
