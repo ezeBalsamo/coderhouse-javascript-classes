@@ -9,4 +9,4 @@ Then, he/she will have to decide how many packs wants to buy, until:
 - B) He/she run out of money
 - C) The remaining money is not enough to complete the album
 
-Of course, this simulation considers that the probability of obtaining new cards decreases as the album is completed.
+Of course, this simulation considers that the probability of obtaining new stickers decreases as the album is completed.
